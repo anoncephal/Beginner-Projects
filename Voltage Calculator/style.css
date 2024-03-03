@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: antiquewhite;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calc-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: aquamarine;
+  height: auto;
+  width: 60%;
+  padding: 2%;
+  border-radius: 20px;
+}
+.element {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 2.5vw;
+}
+#voltage {
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 5%;
+    height: max-content;
+    width:  max-content;
+    background-color: white;
+}
+input {
+    width: 70%;
+    font-size: 3vw;
+}
+#calc-voltage {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+  width: fit-content;
+}
+#calc-voltage:hover {
+  scale: 120%;
+  transition: ease-out 0.5s;
+}
+/* @media only screen and (max-width: 768) {
+  .calc-container {
+    width:100%;
+  }
+  .element {
+    font-size: 5vw;
+  }
+  input {
+    font-size: 5vw;
+  }
+  #calc-voltage {
+    font-size: 5vw;
+  }
+} */
